@@ -28,7 +28,7 @@ print(roshan.fname)
 
 
 class Employee:
-    def __init__(self,fname,lname,age):
+    def __init__(self,fname,lname,age):    #Constructor
         self.fname = fname
         self.lname = lname
         self.age = age
