@@ -19,8 +19,8 @@ class Employee:
         self.sal = self.sal * Employee.inc
      
     @classmethod              #ClassMethod
-    def change_sal(ch,amount):
-        ch.inc = amount 
+    def change_sal(cls,amount):
+        cls.inc = amount 
         
 roshan = Employee("Roshan","Ghimire",2000)
 ravi = Employee("Ravi","Yadav",2200)
