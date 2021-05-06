@@ -3,7 +3,7 @@
 #Instance_And_Class_Variable
 class Employee:
     
-    inc = 2    #Class Variable 
+    inc = 2    
     def __init__(self,fname,lname,sal):
         self.fname = fname
         self.lname = lname
